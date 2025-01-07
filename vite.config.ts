@@ -4,6 +4,7 @@ import tailwindcss from 'tailwindcss';
 
 export default defineConfig({
   plugins: [react()],
+  base: 'https://otochicatole.github.io/analytics/',
   css: {
     postcss: { 
       plugins: [tailwindcss()],
